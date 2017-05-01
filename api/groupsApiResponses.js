@@ -17,7 +17,7 @@ router.post("/addGroup", function (req, res) {
     console.log(groupData);
     db_helper.createGroup(groupData).then(function (data) {
         // data.is_executed = true;
-        console.log(data[0].group_id);
+        // console.log(data[0].group_id);
         res.send({is_executed:true,group_id:data[0].group_id});
     });
 });

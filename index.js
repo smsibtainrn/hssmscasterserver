@@ -20,7 +20,7 @@ var userSentMessagesApiResponses    =   require("./api/userSentMessagesApiRespon
 // API CLASSES - INCLUDING IN APP
 app.use('/user', usersApiResponses);
 app.use('/userContact', userContactsApiResponses);
-app.use('/groups', groupsApiResponses);
+app.use('/group', groupsApiResponses);
 app.use("/userSentMessage",userSentMessagesApiResponses);
 
 // views is directory for all template files
