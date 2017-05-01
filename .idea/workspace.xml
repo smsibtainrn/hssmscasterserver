@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f45c2056-6b1e-4107-acd5-dc06de240ccd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/db_adapter.js" afterPath="$PROJECT_DIR$/modules/database/db_adapter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/db_helper.js" afterPath="$PROJECT_DIR$/modules/database/db_helper.js" />
     </list>
     <ignored path="hssmscasterserver.iws" />
@@ -46,19 +45,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_helper.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db_helper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/database/db_helper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_adapter.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="db_adapter.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/database/db_adapter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -320,12 +317,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493623903592</updated>
       <workItem from="1493623904903" duration="11057000" />
-      <workItem from="1493657108646" duration="3877000" />
+      <workItem from="1493657108646" duration="3938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14934000" />
+    <option name="totallyTimeSpent" value="14995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1050" extended-state="0" />
@@ -465,21 +462,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/database/db_helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/database/db_adapter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/database/db_helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
