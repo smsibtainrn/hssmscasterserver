@@ -16,7 +16,7 @@ app.get('/', function(request, response) {
 app.get('/check', function(request, response) {
   response.send({is_executed:true,
     path:__dirname+'/api/groupsApiResponses/check1',
-    path1:express.static(__dirname + '/public')});
+    difference:express.static(__dirname + '/public')+''});
 });
 
 app.listen(app.get('port'), function() {
