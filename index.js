@@ -5,7 +5,8 @@ app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/public'));
 
-var groupsApiResponses = app.use(express.static(__dirname + '/api/groupsApiResponses'));
+var groupsApiResponses = '';
+app.set(groupsApiResponses, express.static(__dirname + '/api/groupsApiResponses'));
 app.use('/groups', groupsApiResponses);
 
 // views is directory for all template files
