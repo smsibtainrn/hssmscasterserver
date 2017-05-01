@@ -1,6 +1,7 @@
 var sql = require('mssql');
 const Promise = require('bluebird');
 
+/*
 var config = {
     user: 'smsrn',
     password: 'Persia123',
@@ -81,4 +82,4 @@ exports.executeForSingleRecord = function (queryStr) {
 
 sql.on('error', function (err) {
     console.log(!!err ? err : "mssql - unknown error");
-});
+});*/
