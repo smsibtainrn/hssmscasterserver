@@ -5,9 +5,8 @@ app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/public'));
 
-// var groupsApiResponses = '';
-// app.set(groupsApiResponses, express.static(__dirname + '/api/groupsApiResponses'));
-// app.use('/groups', groupsApiResponses);
+var groupsApiResponses = __dirname+'/api/groupsApiResponses';
+app.use(express.static(groupsApiResponses));
 
 // views is directory for all template files
 app.set('views', __dirname + '/views');
@@ -21,8 +20,12 @@ app.get('/check', function(request, response) {
   response.send({is_executed:true});
 });
 
-app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
+// app.listen(app.get('port'), function() {
+//   console.log('Node app is running on port', app.get('port'));
+// });
+
+app.listen(3000, function () {
+  console.log('HS SMS Caster - Node Server Started - Working On Port 3000');
 });
 
 
