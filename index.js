@@ -8,6 +8,13 @@ app.use(express.static(__dirname + '/public'));
 var check = require('./api/check');
 app.use('/check', check);
 
+var usersApiResponses = require('./api/usersApiResponses');
+var userContactsApiResponses = require('./api/userContactsApiResponses');
+var groupsApiResponses = require('./api/groupsApiResponses');
+
+app.use('/user', usersApiResponses);
+app.use('/userContact', userContactsApiResponses);
+app.use('/groups', groupsApiResponses);
 
 // views is directory for all template files
 app.set('views', __dirname + '/views');
