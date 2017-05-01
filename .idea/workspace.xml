@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f45c2056-6b1e-4107-acd5-dc06de240ccd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/db_adapter.js" afterPath="$PROJECT_DIR$/modules/database/db_adapter.js" />
     </list>
     <ignored path="hssmscasterserver.iws" />
@@ -55,14 +57,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_adapter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db_adapter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/database/db_adapter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="3" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="308">
+              <caret line="14" column="5" selection-start-line="2" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,6 +110,7 @@
         <option value="$PROJECT_DIR$/api/check.js" />
         <option value="$PROJECT_DIR$/modules/database/db_helper.js" />
         <option value="$PROJECT_DIR$/modules/database/db_adapter.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -319,12 +332,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493623903592</updated>
       <workItem from="1493623904903" duration="11057000" />
-      <workItem from="1493657108646" duration="4904000" />
+      <workItem from="1493657108646" duration="5095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15961000" />
+    <option name="totallyTimeSpent" value="16152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1050" extended-state="0" />
@@ -474,11 +487,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/database/db_adapter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="3" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="308">
+          <caret line="14" column="5" selection-start-line="2" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
