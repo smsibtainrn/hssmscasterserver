@@ -5,7 +5,7 @@
 var express = require('express');
 var router = express.Router();
 
-// var db_helper = require('../modules/database/db_helper');
+var db_helper = require('../modules/database/db_helper');
 
 router.post("/addGroup", function (req, res) {
         res.send({is_executed:true,group_id:1});
