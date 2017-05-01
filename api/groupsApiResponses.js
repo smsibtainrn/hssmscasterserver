@@ -22,10 +22,11 @@ router.post("/addGroup", function (req, res) {
     });
 });
 
-router.get("/check1",function (req, res) {
-    response.send({is_executed:true});
-});
 
+router.get("/check1", function (req, res) {
+    res.send({is_executed:true,group_id:2});
+
+});
 router.post("/updateGroup", function (req, res) {
     var groupData = req.body;
     console.log(groupData);
