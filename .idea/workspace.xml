@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f45c2056-6b1e-4107-acd5-dc06de240ccd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/db_adapter.js" afterPath="$PROJECT_DIR$/modules/database/db_adapter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/db_helper.js" afterPath="$PROJECT_DIR$/modules/database/db_helper.js" />
     </list>
     <ignored path="hssmscasterserver.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,21 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_helper.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="db_helper.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/database/db_helper.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_adapter.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/database/db_adapter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,8 +73,8 @@
         <option value="$PROJECT_DIR$/api/groupsApiResponses.js" />
         <option value="$PROJECT_DIR$/api/check.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/modules/database/db_helper.js" />
         <option value="$PROJECT_DIR$/modules/database/db_adapter.js" />
+        <option value="$PROJECT_DIR$/modules/database/db_helper.js" />
       </list>
     </option>
   </component>
@@ -306,12 +296,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493623903592</updated>
       <workItem from="1493623904903" duration="11057000" />
-      <workItem from="1493657108646" duration="2541000" />
+      <workItem from="1493657108646" duration="3336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13598000" />
+    <option name="totallyTimeSpent" value="14393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1050" extended-state="0" />
@@ -451,18 +441,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/database/db_helper.js">
+    <entry file="file://$PROJECT_DIR$/modules/database/db_adapter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/database/db_adapter.js">
+    <entry file="file://$PROJECT_DIR$/modules/database/db_helper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

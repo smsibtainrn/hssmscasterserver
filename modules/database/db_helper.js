@@ -8,7 +8,6 @@ var db_adapter = require('./db_adapter');
  ------------------------------------------------------------------------------------
  */
 
-/*
 exports.userAuth = function (data) {
     var query = 'Select * from HSSMSCASTER.dbo.users where user_email_id=\'' + data.email + '\';';
     console.log(query);
@@ -34,11 +33,11 @@ exports.getAllUsers = function (data) {
     return db_adapter.executeQuery(query);
 };
 
-/!*
+/*
  ------------------------------------------------------------------------------------
  Api For Group
  ------------------------------------------------------------------------------------
- *!/
+ */
 
 exports.getAllGroups = function (data) {
     var query = 'Select * from HSSMSCASTER.dbo.Groups where group_owner_id =' + data.user_id + ';';
@@ -54,11 +53,11 @@ exports.createGroup = function (groupData) {
 };
 
 
-/!*
+/*
  ------------------------------------------------------------------------------------
  Api For UserContacts
  ------------------------------------------------------------------------------------
- *!/
+ */
 exports.addUserContact = function (data) {
     var query = 'Insert into HSSMSCASTER.dbo.UserContacts (user_id,group_id,person_contact_name,person_contact_no) OUTPUT INSERTED.person_id ' +
         'values('+ data.user_id +','+ data.group_id +',\''+data.person_contact_name+'\','+'\''+ data.person_contact_no+'\')';
@@ -71,10 +70,9 @@ exports.deleteUserContact = function (data) {
     console.log(query);
     return db_adapter.executeQuery(query);
 }
-*/
 
 /*
  ------------------------------------------------------------------------------------
  Api For Messages
  ------------------------------------------------------------------------------------
- */
+*/
