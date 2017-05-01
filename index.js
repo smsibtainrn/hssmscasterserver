@@ -10,9 +10,6 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-var groups =   require(__dirname + '/api/groupsApiResponses');
-// app.use('/group',group);
-
 app.get('/', function(request, response) {
   response.render('pages/index');
 });
