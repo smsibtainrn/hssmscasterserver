@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/check', function(request, response) {
-  response.send({is_executed:true});
+  response.send({is_executed:true, path:__dirname+""});
 });
 
 app.listen(app.get('port'), function() {
