@@ -1,6 +1,18 @@
 // var sql = require('mssql');
-const Promise = require('bluebird');
-
+// const Promise = require('bluebird');
+var Sequelize = require('sequelize');
+var sequelize = new Sequelize('HSSMSCASTER', 'smsrn', 'Persia123', {
+    host: 'hssmscaster.database.windows.net',
+    dialect: 'mssql',
+    pool: {
+        max: 5,
+        min: 0,
+        idle: 10000
+    },
+    dialectOptions: {
+        encrypt: true
+    }
+});
 /*
 var config = {
     user: 'smsrn',
