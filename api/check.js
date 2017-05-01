@@ -4,10 +4,11 @@
 
 var express = require('express');
 var app = express();
+var router = express.Router();
 
 var db_helper = require('../modules/database/db_helper');
 
-app.get("/addGroup", function (req, res) {
+router.get("/addGroup", function (req, res) {
         res.send({is_executed:true,group_id:1});
 
         /*var groupData = req.body;
@@ -19,3 +20,4 @@ app.get("/addGroup", function (req, res) {
         });*/
 });
 
+module.exports = router;
