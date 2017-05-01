@@ -1,4 +1,4 @@
-var db_adapter = require('./db_adapter');
+// var db_adapter = require('./db_adapter');
 // var config = require('../../twilioConfigurations');
 // var twilio = require('twilio');
 // var twilioLibrary = require('twilio');
