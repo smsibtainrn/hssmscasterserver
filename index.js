@@ -8,8 +8,7 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-app.use('/groups', require('app/api/groupsApiResponses'))
-// app.use('/groups',express.static(__dirname + app.get('groups')));
+// app.use('/groups', require('app/api/groupsApiResponses'))
 
 app.get('/', function(request, response) {
   response.render('pages/index');
@@ -17,8 +16,7 @@ app.get('/', function(request, response) {
 
 app.get('/check', function(request, response) {
   response.send({is_executed:true,
-    path:__dirname+'/api/groupsApiResponses/check1',
-    difference:express.static(__dirname + '/public')+''});
+    path:__dirname+'/api/groupsApiResponses/check1'});
 });
 
 app.listen(app.get('port'), function() {
