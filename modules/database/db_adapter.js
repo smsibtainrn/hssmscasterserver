@@ -18,25 +18,23 @@ var config = {
 //     ,port: 1433
 // }
 
-// var executeQuery = function (queryStr) {
-//     return new Promise(function (resolve, reject) {
-//         sql.connect(config).then(function () {
-//             new sql.Request().query(queryStr).then(function (response) {
-//                 resolve(response);
-//             }).catch(function (err) {
-//                 console.log(!!err ? err : "mssql - unknown error");
-//
-//                 reject(err);
-//             });
-//         }).catch(function (err) {
-//             console.log(!!err ? err : "mssql - unknown error");
-//
-//             reject(err);
-//         });
-//     });
-// }
-//
-// exports.executeQuery = executeQuery;
+var executeQuery = function (queryStr) {
+    return new Promise(function (resolve, reject) {
+        sql.connect(config).then(function () {
+            new sql.Request().query(queryStr).then(function (response) {
+                resolve(response);
+            }).catch(function (err) {
+                console.log(!!err ? err : "mssql - unknown error");
+                reject(err);
+            });
+        }).catch(function (err) {
+            console.log(!!err ? err : "mssql - unknown error");
+            reject(err);
+        });
+    });
+};
+
+exports.executeQuery = executeQuery;
 //
 // exports.executeInBulk = function (queries) {
 //     return new Promise(function (resolve, reject) {
