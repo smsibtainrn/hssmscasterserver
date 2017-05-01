@@ -3,7 +3,7 @@
  */
 
 var express = require('express');
-var app = express();
+
 var router = express.Router();
 
 var db_helper = require('../modules/database/db_helper');
