@@ -7,7 +7,7 @@ var express = require('express');
 // var multiparty = require('multiparty');
 // var util = require('util');
 
-var db_helper = require("../modules/database/db_helper");
+var db_helper = require('../modules/database/db_helper');
 // var uploader = require("../modules/uploader/uploader");
 
 var router = express.Router();
