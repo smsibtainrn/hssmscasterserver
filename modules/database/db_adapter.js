@@ -1,14 +1,14 @@
 var sql = require('mssql');
 const Promise = require('bluebird');
 
-// var config = {
-//     user: 'smsrn',
-//     password: 'Persia123',
-//     server: 'hssmscaster.database.windows.net', // You can use 'localhost\\instance' to connect to named instance
-//     database: 'HSSMSCASTER',
-//     options: {encrypt: true, database: 'HSSMSCASTER'}
+var config = {
+    user: 'smsrn',
+    password: 'Persia123',
+    server: 'hssmscaster.database.windows.net', // You can use 'localhost\\instance' to connect to named instance
+    database: 'HSSMSCASTER',
+    options: {encrypt: true, database: 'HSSMSCASTER'}
 //     ,port: 3000
-// }
+}
 
 // var config = {
 //     user: 'sa',
