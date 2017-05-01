@@ -1,5 +1,5 @@
-var sql = require('mssql');
-// const Promise = require('bluebird');
+// var sql = require('mssql');
+const Promise = require('bluebird');
 
 /*
 var config = {
