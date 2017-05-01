@@ -22,7 +22,7 @@ router.post("/addGroup", function (req, res) {
     });
 });
 
-router.get("/check",function (req, res) {
+router.get("/check1",function (req, res) {
     res.json("Checking Heroku");
     console.log("Checking Heroku");
 
