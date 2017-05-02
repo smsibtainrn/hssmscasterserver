@@ -1,5 +1,5 @@
-var sql = require('mssql');
-const Promise = require('bluebird');
+var sql = require("mssql");
+const Promise = require("bluebird");
 // var Sequelize = require('sequelize');
 /*var sequelize = new Sequelize('HSSMSCASTER', 'smsrn', 'Persia123', {
     host: 'hostname',
@@ -14,12 +14,12 @@ const Promise = require('bluebird');
     }
 });*/
 var config = {
-    user: 'smsrn',
-    password: 'Persia123',
     server: 'hssmscaster.database.windows.net', // You can use 'localhost\\instance' to connect to named instance
-    database: 'HSSMSCASTER',
+    user: "smsrn",
+    password: "Persia123",
+    database: "HSSMSCASTER",
     port: 1433,
-    options: {encrypt: true/*, database: 'HSSMSCASTER'*/}
+    // options: {encrypt: true/*, database: 'HSSMSCASTER'*/}
 
 };
 
