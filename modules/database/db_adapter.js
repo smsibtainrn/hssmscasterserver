@@ -18,8 +18,7 @@ var config = {
     user: "smsrn",
     password: "Persia123",
     database: "HSSMSCASTER",
-    port: 1433,
-    // options: {encrypt: true/*, database: 'HSSMSCASTER'*/}
+    port: 1433// options: {encrypt: true/*, database: 'HSSMSCASTER'*/}
 
 };
 
