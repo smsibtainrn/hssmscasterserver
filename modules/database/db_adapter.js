@@ -13,13 +13,15 @@ const Promise = require('bluebird');
         encrypt: true
     }
 });*/
+
 var config = {
     user: 'smsrn',
     password: 'Persia123',
     server: 'hssmscaster.database.windows.net', // You can use 'localhost\\instance' to connect to named instance
     database: 'HSSMSCASTER',
-    options: {encrypt: true, database: 'HSSMSCASTER'}
-//     ,port: 3000
+    options: {encrypt: true, database: 'HSSMSCASTER'},
+    stream:'true'
+    ,port: 1433
 };
 
 // var config = {
