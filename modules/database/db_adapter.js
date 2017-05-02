@@ -14,7 +14,7 @@ const Promise = require("bluebird");
     }
 });*/
 var config = {
-    server: 'hssmscaster.database.windows.net', // You can use 'localhost\\instance' to connect to named instance
+    server: "hssmscaster.database.windows.net", // You can use 'localhost\\instance' to connect to named instance
     user: "smsrn",
     password: "Persia123",
     database: "HSSMSCASTER",
