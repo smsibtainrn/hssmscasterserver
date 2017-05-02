@@ -13,17 +13,24 @@ const Promise = require('bluebird');
         encrypt: true
     }
 });*/
+// var config = {
+//     user: 'smsrn',
+//     password: 'Persia123',
+//     server: 'hssmscaster.database.windows.net', // You can use 'localhost\\instance' to connect to named instance
+//     database: 'HSSMSCASTER',
+//     options: {encrypt: true, database: 'HSSMSCASTER'},
+//     stream:'true'
+// //     ,port: 3000
+// };
 
 var config = {
-    user: 'smsrn',
-    password: 'Persia123',
-    server: 'hssmscaster.database.windows.net', // You can use 'localhost\\instance' to connect to named instance
-    database: 'HSSMSCASTER',
-    options: {encrypt: true, database: 'HSSMSCASTER'},
-    stream:'true'
-    ,port: 1433
+    userName: 'smsrn', // update me
+    password: 'Persia123', // update me
+    server: 'hssmscaster.database.windows.net', // update me
+    options: {
+        database: 'HSSMSCASTER' //update me
+    }
 };
-
 // var config = {
 //     user: 'sa',
 //     password: 'Smsrn123',
