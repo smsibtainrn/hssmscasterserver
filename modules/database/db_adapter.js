@@ -1,35 +1,40 @@
 var sql = require('mssql');
 const Promise = require('bluebird');
-// var Sequelize = require('sequelize');
-/*var sequelize = new Sequelize('HSSMSCASTER', 'smsrn', 'Persia123', {
-    host: 'hostname',
-    dialect: 'mssql',
-    pool: {
-        max: 5,
-        min: 0,
-        idle: 10000
-    },
-    dialectOptions: {
-        encrypt: true
-    }
-});*/
+
 var config = {
-    user: 'smsrn',
-    password: 'Persia123',
     server: 'hssmscaster.database.windows.net', // You can use 'localhost\\instance' to connect to named instance
-    database: 'HSSMSCASTER',
-    port: 1433
-    // options: {encrypt: true/*, database: 'HSSMSCASTER'*/}
+    database : 'HSSMSCaster',
+    user: 'Smsrn',
+    password: 'Persia123',
+    port: 1433,
+    options: { encrypt: true }
 
 };
 
-// var config = {
-//     user: 'sa',
-//     password: 'Smsrn123',
-//     server: '127.0.0.1\\MSSQLSERVER', // You can use 'localhost\\instance' to connect to named instance
-//     database: 'HSSMSCASTER'
-//     ,port: 1433
-// }
+exports.executeQuery1 = function (queryStr) {
+
+    var conn = new sql.Connection(config);
+
+    conn.connect().then(function () {
+
+        // Create request instance, passing in connection instance
+        var req = new sql.Request(conn);
+
+        // Call mssql's query method passing in params
+        req.query(queryStr)
+            .then(function (recordset) {
+                console.log(recordset);
+                conn.close();
+            })
+            // Handle sql statement execution errors
+            .catch(function (err) {
+                console.log(err);
+                conn.close();
+            })
+
+    })
+
+};
 
 var executeQuery = function (queryStr) {
     return new Promise(function (resolve, reject) {

@@ -51,7 +51,7 @@ exports.createGroup = function (groupData) {
     var query = 'Insert into HSSMSCASTER.dbo.Groups (group_name,group_description,group_owner_id) OUTPUT INSERTED.group_id ' +
         'values(' + '\'' + groupData.group_name + '\'' + ',' + '\'' + groupData.group_description + '\'' + ','  + groupData.group_owner_id   + ');';
     console.log(query);
-    return db_adapter.executeQuery(query);
+    return db_adapter.executeQuery1(query);
 };
 
 
