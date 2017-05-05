@@ -3,7 +3,7 @@ const Promise = require('bluebird');
 
 var config = {
     server: 'hssmscaster.database.windows.net', // You can use 'localhost\\instance' to connect to named instance
-    database : 'HSSMSCaster',
+    database : 'HSSMSCASTER',
     user: 'Smsrn',
     password: 'Persia123',
     port: 1433,
