@@ -42,7 +42,7 @@ exports.getAllUsers = function (data) {
  */
 exports.getAllGroupsCheck = function (data) {
     var query = 'Select * from HSSMSCASTER.dbo.Groups;';
-    return db_adapter.executeQuery(query);
+    return db_adapter.executeForSingleRecord(query);
 }
 
 
