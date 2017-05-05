@@ -11,31 +11,6 @@ var config = {
 
 };
 
-exports.executeQuery1 = function (queryStr) {
-
-    var conn = new sql.Connection(config);
-
-    conn.connect().then(function () {
-
-        // Create request instance, passing in connection instance
-        var req = new sql.Request(conn);
-
-        // Call mssql's query method passing in params
-        req.query(queryStr)
-            .then(function (recordset) {
-                console.log(recordset);
-                conn.close();
-            })
-            // Handle sql statement execution errors
-            .catch(function (err) {
-                console.log(err);
-                conn.close();
-            })
-
-    })
-
-};
-
 var executeQuery = function (queryStr) {
     return new Promise(function (resolve, reject) {
         sql.connect(config).then(function () {

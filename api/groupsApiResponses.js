@@ -48,6 +48,15 @@ router.get("/getAllGroups", function (req, res) {
     });
 });
 
+router.get("/getAllGroupsCheck", function (req, res) {
+    console.log("Running getAllGroups");
+    db_helper.getAllGroupsCheck(req.headers).then(function (data) {
+        data.isExecuted = {isExecuted : true};
+        console.log(data)
+        res.json(data);
+    });
+});
+
 router.get("/getAllUserGroups", function (req, res) {
     console.log("Running getAllUserGroupMembership");
     db_helper.getAllUserGroupMembership().then(function (data) {

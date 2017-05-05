@@ -40,6 +40,12 @@ exports.getAllUsers = function (data) {
  Api For Group
  ------------------------------------------------------------------------------------
  */
+exports.getAllGroupsCheck = function (data) {
+    var query = 'Select * from HSSMSCASTER.dbo.Groups;';
+    // console.log(query);
+    return db_adapter.executeQuery(query);
+}
+
 
 exports.getAllGroups = function (data) {
     var query = 'Select * from HSSMSCASTER.dbo.Groups where group_owner_id =' + data.user_id + ';';
@@ -51,7 +57,7 @@ exports.createGroup = function (groupData) {
     var query = 'Insert into HSSMSCASTER.dbo.Groups (group_name,group_description,group_owner_id) OUTPUT INSERTED.group_id ' +
         'values(' + '\'' + groupData.group_name + '\'' + ',' + '\'' + groupData.group_description + '\'' + ','  + groupData.group_owner_id   + ');';
     console.log(query);
-    return db_adapter.executeQuery1(query);
+    return db_adapter.executeQuery(query);
 };
 
 
