@@ -6,7 +6,7 @@ var config = {
     database : 'HSSMSCASTER',
     user: 'Smsrn',
     password: 'Persia123',
-    port: 1433,
+    // port: 1433,
     options: { encrypt: true }
 
 };
