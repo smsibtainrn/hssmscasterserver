@@ -18,7 +18,7 @@ router.post("/addGroup", function (req, res) {
     db_helper.createGroup(groupData).then(function (data) {
         // data.is_executed = true;
         // console.log(data[0].group_id);
-        res.send({is_executed:true,group_id:data[0].group_id});
+        res.json({is_executed:true,group_id:data[0].group_id});
     });
 });
 
@@ -51,9 +51,7 @@ router.get("/getAllGroups", function (req, res) {
 router.get("/getAllGroupsCheck", function (req, res) {
     console.log("Running getAllGroups");
     db_helper.getAllGroupsCheck(req.headers).then(function (data) {
-        data.isExecuted = {isExecuted : true};
-        console.log(data)
-        res.json(data);
+        res.send(data);
     });
 });
 
