@@ -1,4 +1,7 @@
 /**
+ * Created by Sibtain Raza on 5/5/2017.
+ */
+/**
  * Created by Sibtain Raza on 1/9/2017.
  */
 var express = require('express');
@@ -7,7 +10,7 @@ var express = require('express');
 // var multiparty = require('multiparty');
 // var util = require('util');
 
-var db_helper = require('../modules/database/db_helper');
+var db_helper = require('modules/database/db_helper');
 // var uploader = require("../modules/uploader/uploader");
 
 var router = express.Router();
@@ -51,9 +54,8 @@ router.get("/getAllGroups", function (req, res) {
 router.get("/getAllGroupsCheck", function (req, res) {
     console.log("Running getAllGroups");
     db_helper.getAllGroupsCheck(req.headers).then(function (data) {
-        data.isExecuted = {isExecuted : true};
         console.log(data)
-        res.json(data);
+        res.send(data);
     });
 });
 

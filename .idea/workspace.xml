@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f45c2056-6b1e-4107-acd5-dc06de240ccd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/groupsApiResponses.js" afterPath="$PROJECT_DIR$/api/groupsApiResponses.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/db_adapter.js" afterPath="$PROJECT_DIR$/modules/database/db_adapter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/db_helper.js" afterPath="$PROJECT_DIR$/modules/database/db_helper.js" />
     </list>
     <ignored path="hssmscasterserver.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +24,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="189">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userContactsApiResponses.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/userContactsApiResponses.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usersApiResponses.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/usersApiResponses.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userSentMessagesApiResponses.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/userSentMessagesApiResponses.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -38,18 +67,18 @@
       <file leaf-file-name="groupsApiResponses.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/groupsApiResponses.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            <state relative-caret-position="368">
+              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_helper.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db_helper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/database/db_helper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+            <state relative-caret-position="0">
+              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -84,11 +113,11 @@
         <option value="$PROJECT_DIR$/api/usersApiResponses.js" />
         <option value="$PROJECT_DIR$/api/check.js" />
         <option value="$PROJECT_DIR$/api/userSentMessagesApiResponses.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/modules/database/db_helper1.js" />
-        <option value="$PROJECT_DIR$/api/groupsApiResponses.js" />
         <option value="$PROJECT_DIR$/modules/database/db_adapter.js" />
         <option value="$PROJECT_DIR$/modules/database/db_helper.js" />
+        <option value="$PROJECT_DIR$/api/groupsApiResponses.js" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -149,6 +178,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hssmscasterserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hssmscasterserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -163,12 +206,14 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/Documents/NED/Cloud Computing/Heroku/hssmscasterserver/modules/database/db_helper.js" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Documents\NED\Cloud Computing\Heroku\hssmscasterserver" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Documents\NED\Cloud Computing\Heroku\hssmscasterserver\api" />
       <recent name="G:\Documents\NED\Cloud Computing\Heroku\hssmscasterserver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Documents\NED\Cloud Computing\Heroku\hssmscasterserver" />
+      <recent name="G:\Documents\NED\Cloud Computing\Heroku\hssmscasterserver\" />
+      <recent name="G:\Documents\NED\Cloud Computing\Heroku\hssmscasterserver\api" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.db_helper1.js">
@@ -256,12 +301,12 @@
       <workItem from="1493657108646" duration="9553000" />
       <workItem from="1493733473849" duration="5428000" />
       <workItem from="1493919778361" duration="371000" />
-      <workItem from="1494001513573" duration="2689000" />
+      <workItem from="1494001513573" duration="2985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29098000" />
+    <option name="totallyTimeSpent" value="29394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -294,7 +339,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/groupsApiResponses.js">
+    <entry file="file://$PROJECT_DIR$/groupsApiResponses.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
@@ -326,7 +371,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/groupsApiResponses.js">
+    <entry file="file://$PROJECT_DIR$/groupsApiResponses.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
@@ -358,7 +403,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/groupsApiResponses.js">
+    <entry file="file://$PROJECT_DIR$/groupsApiResponses.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
@@ -437,20 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/usersApiResponses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/userContactsApiResponses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/check.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -459,13 +490,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/uploader/uploader" />
-    <entry file="file://$PROJECT_DIR$/api/userSentMessagesApiResponses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/multer/lib/make-middleware.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -489,14 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/database/db_adapter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -505,18 +521,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/groupsApiResponses.js">
+    <entry file="file://$PROJECT_DIR$/modules/database/db_helper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/database/db_helper.js">
+    <entry file="file://$PROJECT_DIR$/api/userContactsApiResponses.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/usersApiResponses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/userSentMessagesApiResponses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groupsApiResponses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="50" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/groupsApiResponses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding />
         </state>
       </provider>
