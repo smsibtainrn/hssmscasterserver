@@ -4,11 +4,17 @@
 
 var express = require('express');
 
-var db_helper = require("../modules/database/db_helper");
+// var db_helper = require("../modules/database/db_helper");
 // var uploader = require("../modules/uploader/uploader");
 
 var router = express.Router();
 
+router.post("/jwtr",function(req,res){
+    var response = {};
+    response.jwt = "database error";
+    res.json(response);
+});
+/*
 router.post("/signIn", function (req, res) {
     console.log("User Login");
     var body = req.body;
@@ -146,5 +152,5 @@ router.post("/insertUser1", function (req, res) {
     });
 });
 
-
+*/
 module.exports = router;
